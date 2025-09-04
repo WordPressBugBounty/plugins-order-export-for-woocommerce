@@ -3,7 +3,7 @@
 Plugin Name: WP All Export - WooCommerce Order Export Add-On
 Plugin URI: http://www.wpallimport.com/
 Description: Drag & drop to export WooCommerce orders to any CSV or XML. A paid upgrade is available for premium support, exporting advanced WooCommerce order data, and more.
-Version: 1.0.4
+Version: 1.0.5
 Author: Soflyy
 */
 /**
@@ -24,7 +24,7 @@ define('PMWOE_ROOT_URL', rtrim(plugin_dir_url(__FILE__), '/'));
  */
 define('PMWOE_PREFIX', 'pmwoe_');
 
-define('PMWOE_VERSION', '1.0.4');
+define('PMWOE_VERSION', '1.0.5');
 
 define( 'PMWOE_EDITION', 'free' );
 

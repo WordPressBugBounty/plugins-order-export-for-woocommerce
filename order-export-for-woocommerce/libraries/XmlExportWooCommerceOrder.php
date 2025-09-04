@@ -1128,31 +1128,31 @@ if (!class_exists('XmlExportWooCommerceOrder')) {
                                 ?>
 
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-items">
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&discount=welcome-upgrade-169&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-items">
                                     Upgrade to the WooCommerce Export Package to Export Order Items</a>
                                 <?php
                             } else if ($slug == 'taxes') {
                                 ?>
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-taxes-shipping">
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&discount=welcome-upgrade-169&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-taxes-shipping">
                                     Upgrade to the WooCommerce Export Package to Export Taxes &amp; Shipping</a>
                                 <?php
                             } else if ($slug == 'fees') {
                                 ?>
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-fees-discounts">
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&discount=welcome-upgrade-169&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-fees-discounts">
                                     Upgrade to the WooCommerce Export Package to Export Fees &amp; Discounts</a>
                                 <?php
                             } else if ($slug == 'notes') {
                                 ?>
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-notes">
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&discount=welcome-upgrade-169&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-notes">
                                     Upgrade to the WooCommerce Export Package to Export Order Notes</a>
                                 <?php
                             } else if ($slug == 'refunds') {
                                 ?>
                                 <a class="upgrade_link" target="_blank"
-                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-refunds">
+                                   href="https://www.wpallimport.com/checkout/?edd_action=add_to_cart&download_id=5839955&discount=welcome-upgrade-169&edd_options%5Bprice_id%5D=1&utm_source=export-plugin-free&utm_medium=upgrade-notice&utm_campaign=export-order-refunds">
                                     Upgrade to the WooCommerce Export Package to Export Order Refunds</a>
                                 <?php
                             }

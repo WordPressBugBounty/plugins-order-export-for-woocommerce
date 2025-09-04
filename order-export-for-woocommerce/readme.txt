@@ -2,16 +2,16 @@
 Contributors: soflyy, wpallimport
 Tags: order, export, woocommerce, csv, xml, excel, export order, order export, export orders, woocommerce order export, export woocommerce order, export woocommerce orders
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.8
 License: GPLv2 or later
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 Export WooCommerce orders to CSV, Excel, or XML files. Run your WooCommerce order export on demand or on a schedule.
 
 == Description ==
 
-Quickly export WooCommerce orders to CSV, Excel, or XML files with the WooCommerce Order Export Add-On for [WP All Export](https://wordpress.org/plugins/wp-all-export/).
+Quickly export WooCommerce orders to CSV, Excel, Google Sheets, or XML files with the WooCommerce Order Export Add-On for [WP All Export](https://wordpress.org/plugins/wp-all-export/).
 
 Use our Drag & Drop tool to choose, rearrange, or even customize your order export columns.
 
@@ -27,11 +27,11 @@ Need a little extra control? Use our embedded functions to apply programming log
 
 **[Click here to try WP All Export right now](https://www.wpallimport.com/try-export-free/).**
 
-[youtube https://www.youtube.com/watch?v=V7CZ5D9Hc1Q]
+[youtube https://www.youtube.com/watch?v=ZHN-F2UZBd0/]
 
 = Choose Your WooCommerce Order Export Columns =
 
-As shown in the video, you can easily select your order export columns using our Drag & Drop tool. You can also rearrange, combine, and rename them. You can even use our embedded functions to modify your order export data on the fly.
+As shown in the video, you can easily select your order export columns for Excel, Google Sheets, or other formats using our Drag & Drop tool. You can also rearrange, combine, and rename them. You can even use our embedded functions to modify your order export data on the fly.
 
 These features let you export WooCommerce orders exactly the way you want instead of building only a partial solution that you have to modify afterward.
 
@@ -51,13 +51,13 @@ This is especially true when exporting WooCommerce orders to external systems be
 
 This is why we put so much effort into building our XML export tools. You can create any XML feed with our plugin, no matter how challenging or complex.
 
-Don’t need all that power? No problem. You can export orders to CSV or Excel with just a few clicks. But it’s always good to know that you have more firepower if you need it.
+Don’t need all that power? No problem. You can export WooCommerce orders to Excel, CSV, and Google Sheets with just a few clicks. But it’s always good to know that you have more firepower if you need it.
 
 = Bulk Edit Your WooCommerce Order Data =
 
 Although bulk editing WooCommerce orders is less common than bulk editing other types of data, such as WooCommece products, it can still happen. For example, if you make changes to your store, you may want to bring your historical order data in line with these changes.
 
-Our plugin makes bulk editing orders a breeze. Just export your order data, bulk edit it in a spreadsheet, then import it back into WooCommerce with WP All Import.
+Our plugin makes bulk editing orders a breeze. Just export your order data, bulk edit it in Excel or Google Sheets, and then import it back into WooCommerce with WP All Import.
 
 The beauty of using our plugins for bulk editing is that they understand each other. When importing orders exported by WP All Export, WP All Import will automatically configure itself, saving you lots of time and eliminating the possibility of import errors.
 
@@ -79,7 +79,7 @@ One option is to use Zapier — a leading integration platform — to automatica
 
 Point-and-click interfaces are great because they simplify things and save time. But there are tasks that you can’t perform with these types of interfaces. For example, you can’t apply conditional logic. That requires custom programming, which normally requires a programmer and a development environment.
 
-We offer you an alternative by providing you with a custom function edit box directly within our interface, no development environment required. In fact, you can skip the programmer, too, because you can just copy-and-past code samples into this edit box and edit them with your conditions.
+We offer you an alternative by providing you with a custom function edit box directly within our interface, with no development environment required. In fact, you can skip the programmer, too, because you can just copy and paste code samples into this edit box and edit them with your conditions.
 
 This means that you can indeed apply conditional logic to your WooCommerce order export, often in minutes.
 
@@ -93,7 +93,7 @@ With the free version of WooCommerce Order Export, you can:
 
 * Select, rearrange, and modify order export fields
 
-* Export order data, modify it in a spreadsheet, then import those changes back into WooCommerce with [WP All Import](https://wordpress.org/plugins/wp-all-import/)
+* Export order data, modify it in a spreadsheet, and then import those changes back into WooCommerce with [WP All Import](https://wordpress.org/plugins/wp-all-import/)
 
 * Migrate order data from one WooCommerce store to another
 
@@ -101,7 +101,7 @@ With the free version of WooCommerce Order Export, you can:
 
 With the premium version of WooCommerce Order Export, you get all the free features plus:
 
-* Export order data directly to Excel (.xls and .xlsx)
+* Export order data directly to Excel (.XLS and .XLSX)
 
 * Export all WooCommerce order fields, including order items, taxes & shipping, fees & discounts, etc.
 
@@ -109,7 +109,7 @@ With the premium version of WooCommerce Order Export, you get all the free featu
 
 * Schedule your order export
 
-* Use Zapier to integrate your order export with external applications
+* Use Zapier to export orders to Google Sheets and 1000s of external applications
 
 * Modify your order export data using custom PHP functions
 
@@ -117,11 +117,7 @@ With the premium version of WooCommerce Order Export, you get all the free featu
 
 = Premium Support =
 
-[Upgrade to the Pro edition of WP All Export](http://www.wpallimport.com/upgrade-to-wp-all-export-pro/) for premium support.
-
-Our team of support specialists has answered many thousands of questions about WooCommerce order expors over the past decade. Whatever you want to do, we’ll know how to handle it.
-
-Email: support@wpallimport.com
+You can submit the [support form on our website](https://www.wpallimport.com/support/) or email us at [support@wpallimport.com](mailto:support@wpallimport.com). While we try to assist users of our free version, please note that support is not guaranteed and will depend on our capacity. For premium support, purchase [WP All Export Pro](https://www.wpallimport.com/upgrade-to-wp-all-export-pro/?utm_source=dotorg&utm_medium=readme&utm_campaign=premium-support).
 
 = Related Plugins =
 [Export any WordPress data to XML/CSV](https://wordpress.org/plugins/wp-all-export/)
@@ -168,6 +164,10 @@ Either: -
 3. Configure the export columns.
 4. Change the Export Type to Feed › Simple XML Feed.
 5. Complete the export and download the export file.
+
+= How do I export WooCommerce orders to Google Sheets? =
+
+Set up the export process as you’d normally do for a CSV or Excel file. Once the export is complete, connect to Google Sheets using Zapier. In Zapier, you'll need to set up an action and trigger that fires when the export runs and sends WooCommerce order data to Google Sheets.
 
 = How do I export a specific order in WooCommerce? =
 
@@ -242,6 +242,9 @@ If you are using the free version of the plugin, you can obtain support through 
 10. WooCommerce Order Export Confirm and Run
 
 == Changelog ==
+
+= 1.0.5 =
+* improvement: UI updates
 
 = 1.0.4 =
 * improvement: initial support for HPOS orders
